@@ -1,0 +1,149 @@
+html,body{
+	background-image:url("images/background.png");
+	background-repeat:no-repeat; 
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	vertical-align:middle;
+	display:inline-block;
+}
+
+.container{
+	Float:right;
+	color:#888;
+	font-size:26pt;
+	margin-top:200px;
+	margin-right:450px;
+}
+
+.waifu1 {
+    background: url('images/mascots/suzu1.png') #282A2E;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:inline-block;
+}
+
+.waifu2 {
+    background: url('images/mascots/suzu4.png') #282A2E;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:inline-block;
+}
+
+.waifu3 {
+    background: url('images/mascots/suzu5.png') #282A2E;
+    background-size: contain;
+    background-repeat: no-repeat;	
+	display:inline-block;
+}
+
+.plain {
+    background: #A9A9AF;
+    padding: 20px 20px 20px 20px;
+	display:inline-block;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+	background-color:white;
+}
+
+li {
+    position: relative;
+    margin: 3px 3px;
+    display: inline-block;
+}
+
+li > a {
+    display: inline-block;
+    min-width: 140px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 5px;
+    border: 0px solid #373B41;
+    outline: none;
+    background: #F2F2F2;
+    transition: all .5s;
+}
+
+li:hover > a {
+    color: #d67b96;
+    background: none;
+    border: none
+}
+
+li > ul {
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    max-height: 0;
+    border: 0 solid #373B41;
+    transition: all .5s;
+    z-index: 10;
+}
+
+li:hover > ul {
+    max-height: 500px;
+    border: 0px solid #70293b;
+    transition: max-height 1s, border 1s;
+}
+
+ li > ul > li {
+    display: block;
+}
+
+li > ul > li > a {
+    display: inline-block;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    outline: 0;
+    background: white;
+    transition: all 1s;
+}
+
+ li > ul > li > a:hover {
+    color: black;
+    background: #eeeeee;
+}
+
+nav{
+	text-align: center;
+}
+
+#websites{
+margin-left:180px;
+margin-top:30px;
+}
+
+#searching{
+	margin-top:60px;
+	margin-left:180px;
+}
+
+#main{
+	background-color:rgb(227, 227, 227);
+	display:inline-block;
+	width: 850px;
+	height: 220px;
+	margin-left:200px;
+	position:relative;
+	opacity:.8;
+	border-radius: 15px;
+}
+
+form{
+	background:white;
+	Height:8px;
+	text-align:center;
+	outline: 0;
+}
+
+
+form:focus, input:focus{
+    outline:0;
+}
